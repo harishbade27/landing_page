@@ -246,20 +246,22 @@ const HeroSection = () => {
         <div className="left-content">
           <div className="hero-container">
             <div className="about-us-button">ABOUT US</div>
-            <h1 className="hero-title">why our app useful to you?</h1>
-            <p className="hero-description">Work on the go - BeeS mobile application lets you work from anywhere...</p>
+            <h1 className="hero-title">Why Our App is Useful to You?</h1>
+            <p className="hero-description">
+              Work on the go – BeeS mobile application lets you work from anywhere...
+            </p>
           </div>
           <div className="mission-vision-container">
             <div className="mission-block">
               <div className="icon-container">
-                <FaLightbulb size={50} color="#3498db" />
+                <FaLightbulb size={40} color="#3498db" />
               </div>
               <h3>Our Mission</h3>
               <p>Our mission is to offer the best automation solution...</p>
             </div>
             <div className="vision-block">
               <div className="icon-container">
-                <FaBullseye size={50} color="#2ecc71" />
+                <FaBullseye size={40} color="#2ecc71" />
               </div>
               <h3>Our Vision</h3>
               <p>Our vision is to bring in a revolutionary change...</p>
@@ -268,7 +270,11 @@ const HeroSection = () => {
         </div>
         <div className="right-content">
           <div className="image-container">
-            <img src="https://www.beessoftware.in/wp-content/uploads/2023/05/Manage-your-daily-tasks-1-768x673.png" alt="App Showcase" className="main-image" />
+            <img
+              src="https://www.beessoftware.in/wp-content/uploads/2023/05/Manage-your-daily-tasks-1-768x673.png"
+              alt="App Showcase"
+              className="main-image"
+            />
           </div>
         </div>
       </div>
@@ -486,7 +492,7 @@ const HeroSection = () => {
         <div className="client-badge">OUR ESTEEMED CLIENTS</div>
 
         <div className="slider-container">
-       
+
 
           <div className="logo-slide">
             {getCurrentImages().map((logo, i) => (
@@ -499,7 +505,7 @@ const HeroSection = () => {
             ))}
           </div>
 
-       
+
         </div>
 
         <div className="map-container">
