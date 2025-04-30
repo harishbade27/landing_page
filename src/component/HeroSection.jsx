@@ -132,11 +132,11 @@ const HeroSection = () => {
     setCurrentSlideIndex((prev) => (prev + itemsPerSlide) % logos.length);
   };
 
-  const prevSlide = () => {
-    setCurrentSlideIndex((prev) =>
-      (prev - itemsPerSlide + logos.length) % logos.length
-    );
-  };
+  // const prevSlide = () => {
+  //   setCurrentSlideIndex((prev) =>
+  //     (prev - itemsPerSlide + logos.length) % logos.length
+  //   );
+  // };
 
   useEffect(() => {
     const interval = setInterval(() => {
